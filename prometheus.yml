@@ -5,4 +5,4 @@ scrape_configs:
   - job_name: prometheus-testing
     static_configs:
       - targets:
-          - https://prometheus-testing-production.up.railway.app
+          - prometheus-testing-production.up.railway.app
